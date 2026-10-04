@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+.vite/
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.temp
+
+# Certificates / private keys
+*.pem
+*.key
+*.p12
+*.pfx
